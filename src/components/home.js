@@ -14,16 +14,18 @@ const Home = () => (
         <li><Link to=''>SIGN UP</Link></li>
     </ul>
     </div>
-    <div className="main-container">
-    <h1 align="center">Quick Search for Your Perfect Product</h1>
-    <h4 align="center">Innovate List Connect</h4>
-    <form action="">
-    <input type="text"  ></input>
-    </form>
-    </div>
-
-
     </header>
+
+    // <div className="main-container">
+    // <form action="" align="center">
+    // <h1>Quick Search for Your Perfect Product</h1>
+    // <h4>Innovate List Connect</h4>
+    // <input type="text" align="center" class="Rectangle_6"></input>
+    // </form>
+    // </div>
+
+
+ 
   )
 
 export default Home;
