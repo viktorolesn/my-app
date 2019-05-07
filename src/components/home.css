@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+
+  .Rectangle_6 {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    left: 1000px;
+    top: 480px;
+    width: 728px;
+    height: 25px;
+    z-index: 135;
+  }
+  .header {
+    background-color:#ECECEC;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: 111;
+  }
+  .Shape_1 {
+    background-color: rgb(50, 50, 50);
+    opacity: 0.259;
+    position: absolute;
+    left: 1636px;
+    top: 12px;
+    width: 1px;
+    height: 53px;
+    z-index: 110;
+  }
+
+  ul{
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 2.143;
+    position: absolute;
+    left: 1279.937px;
+    top: 24.999px;
+    z-index: 109;
+  }
+
+  .logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3090px;
+    z-index: 108;
+  }
+    
+  
+  h1{
+      
+  }
+  .h2{
+    color:Black;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
