@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main_container{
+    padding:0;
+}
+
+body{
+    background-image: url("../png/Background.png");
+    background-size: 100%;
+}
+
+.Quick_Search {
+    font-size: 55px;
+    font-family: "Raleway";
+    color: rgb(72, 72, 72);
+    font-weight: bold;
+    line-height: 0.545;
+    padding-top: 185px;
+  }
+
+.h1Color{
+    Color: green;
+}
+
+.Innovate_List {
+    font-size: 18px;
+    font-family: "Raleway";
+    color: grey;
+    text-transform: uppercase;
+    line-height: 1.667;
+    padding-top: 28px;
+
+  }
+
+.h4Span{
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.SearchBox{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 750px;
+    height: 55px;
+    margin-left:-12%;
+    margin-top: 19px;
+  }
+
+  .SearchButton{
+    background-color: rgb(77, 173, 187);
+    position: absolute;
+    width: 195px;
+    height: 55px;
+    z-index: 142;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 19px;
+    
+  }
+
+
+  
+  
+  
+  
+  

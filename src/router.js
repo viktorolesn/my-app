@@ -2,7 +2,7 @@ import React from "react"
 import {BrowserRouter, Switch, Route, Link} from "react-router-dom"
 import createBrowserHistory from "history/createBrowserHistory"
 
-import Home from './components/home'
+import Home from './pages/home';
 
 const history = createBrowserHistory();
 
