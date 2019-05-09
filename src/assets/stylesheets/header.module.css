@@ -1,39 +1,25 @@
-*{
-    margin:0;
-    padding:0;
-}
+
 .main-container {
     color: black;
-}
-
-body{
-    font-family: 'Raleway', sans-serif;
 }
 
 Link{
     text-decoration: none;
 }
-
-li{
-    list-style:none;
+nav{
+    margin-right: 10px;
 }
-
 header{
     width:100%;
     background: #E5E7EC;
     display: flex;
-    align-items: stretch;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .header_logo{
   margin-left:8.3%;
 }
-
-nav{
-    margin-top: 1.5%;
-    margin-left: 33%;
-}
-
 
 .myLink{
     text-align: center;
@@ -47,19 +33,15 @@ nav{
     font-size: 14px;
     font-family: "Raleway";
     text-transform: uppercase;
-    line-height: 2.143;
-    
+    line-height: 2.143;  
 }
 
-.linkBorder{
-padding: 15px;
-display: inline;
-border-right-width: 1px;
-border-top-width: 0px;
-border-left-width: 0px;
-border-bottom-width: 0px;
-border-color: darkslategrey;
-border-style: solid;
+.Border::after{
+content: "|";
+color: #b5b6b9;
+font-size: 32px;
+font-weight: 300;
 }
+  
 
   

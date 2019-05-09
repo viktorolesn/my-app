@@ -5,18 +5,19 @@ import styles from '../../assets/stylesheets/header.module.css';
 
 export default class Header extends React.Component{
 render(){
-  return(<header  className={styles.header} style={styles}>
+  return(
+  <header  className={styles.header} style={styles}>
     <div className={styles.header_logo}>
-          <img src={logo}></img>
+     <Link to="404"> <img src={logo}></img></Link>
     </div>
-     <nav className={styles.nav}>
-       <div className={styles.topNav} id="myTopNav"> 
-            <Link to="" className={styles.myLink}>ALL PRODUCTS</Link>
-            <Link to="/about" className={styles.myLink}> ABOUT US</Link>
-            <div className={styles.linkBorder}><Link to="" className={styles.myLink}>LOG IN</Link></div>
-            <Link to="" className={styles.myLink}>SIGN UP</Link>
-       </div>
-     </nav>
+    <nav className={styles.nav}>
+      <div className={styles.topNav} id="myTopNav"> 
+        <Link to="" className={styles.myLink}>ALL PRODUCTS</Link>
+        <Link to="/about" className={styles.myLink}> ABOUT US</Link>
+        <span className={styles.Border}><Link to="" className={styles.myLink}>LOG IN</Link></span>
+        <Link to="" className={styles.myLink}>SIGN UP</Link>
+      </div>
+    </nav>
   </header>
     )
   }

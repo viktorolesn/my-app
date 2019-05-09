@@ -1,17 +1,11 @@
-*{
-    margin:0;
-    padding:0;
-}
+
 .main_container{
-    padding:0;
+    background-image: url("../png/Background.png");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-body{
-    background-image: url("../png/Background.png");
-    background-size: 100%;
+    height:100vh;
 }
 
 .Quick_Search {
@@ -19,13 +13,13 @@ body{
     font-family: "Raleway";
     color: rgb(72, 72, 72);
     font-weight: bold;
-    line-height: 0.545;
-    padding-top: 185px;
+    padding-top: 80px;
   }
 
 .h1Color{
-    Color: green;
+    color: #0e7200;
 }
+
 
 .Innovate_List {
     font-size: 18px;
@@ -33,9 +27,7 @@ body{
     color: grey;
     text-transform: uppercase;
     line-height: 1.667;
-    padding-top: 28px;
-    margin-bottom: 20px;
-
+    margin-top: -30px;;
   }
 
 .h4Span{
@@ -50,19 +42,38 @@ body{
 }
 
 .SearchBox{
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     border-top: 0;
     border-left: 0;
     border-width: 0;
     background-color: rgb(255, 255, 255);
-    width: 600px;
+    width: 500px;
     height: 55px;
     font-size: 26px;
     font-family: "Raleway";
     font-weight: bold;
-   /* margin-left:-12%;
-    margin-top: 19px;*/
+  }
+
+  .SearchSelect{
+    border: 0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 57px;
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: 10;
+    text-align: center;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+    appearance: none;
+    background-image: url(../png/arrow.png);
+	background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    padding: 10px;
   }
 
   .SearchButton{
@@ -76,15 +87,14 @@ body{
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    /*margin-top: 19px;*/
-    
+    border: 0;
+    align-content: center;
   }
   
   .mainButtonsContainer{
-      display: flex;
-      justify-content: center;
-      margin-top: 100px;
-
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
   }
 
   .myButtons{
@@ -92,16 +102,23 @@ body{
     opacity: 0.831;
     left: 750px;
     top: 841px;
-    width: 199px;
-    height: 76px;
-
+    width: 149px;
+    height: 56px;
+    border: 0;
+    margin-right: 15px;
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(14, 114, 0);
+    font-weight: bold;
+    text-align: center; 
   }
 
-  
+  .firstIcon::before{
+    content: url(../png/icon_category.png);
+    justify-content: stretch;
+  }
 
-
-  
-  
-  
-  
-  
+  .secondIcon::before{
+    content: url(../png/icon.png);
+    justify-content: center;
+  }
