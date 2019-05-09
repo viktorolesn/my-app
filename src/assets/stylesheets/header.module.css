@@ -22,6 +22,7 @@ header{
     width:100%;
     background: #E5E7EC;
     display: flex;
+    align-items: stretch;
 }
 
 .header_logo{
@@ -37,14 +38,14 @@ nav{
 .myLink{
     text-align: center;
     padding: 30px 25px;
-    font-style: bold;
+    font-weight: bold;
+    color: rgb(72, 72, 72);
     font-size: 13px;
     text-decoration:  none;
     border-right: 1px;
     border-right-color: black;
     font-size: 14px;
     font-family: "Raleway";
-    color: rgb(0, 0, 0);
     text-transform: uppercase;
     line-height: 2.143;
     

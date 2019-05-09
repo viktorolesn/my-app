@@ -12,6 +12,10 @@ const About = () => (
   </div>
 )
 
+const NoMatch = () => (
+  <h1>404 Page Not Found </h1>
+)
+
 export default class Router extends React.Component{
   render(){
     return(
@@ -19,6 +23,7 @@ export default class Router extends React.Component{
         <Switch>
         <Route exact path="/" component={Home}></Route>
         <Route path="/about" component={About}></Route>
+        <Route component={NoMatch} />
         </Switch>
       </BrowserRouter>
     )

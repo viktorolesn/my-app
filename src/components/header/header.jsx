@@ -12,7 +12,7 @@ render(){
      <nav className={styles.nav}>
        <div className={styles.topNav} id="myTopNav"> 
             <Link to="" className={styles.myLink}>ALL PRODUCTS</Link>
-            <Link to="" className={styles.myLink}> ABOUT US</Link>
+            <Link to="/about" className={styles.myLink}> ABOUT US</Link>
             <div className={styles.linkBorder}><Link to="" className={styles.myLink}>LOG IN</Link></div>
             <Link to="" className={styles.myLink}>SIGN UP</Link>
        </div>
