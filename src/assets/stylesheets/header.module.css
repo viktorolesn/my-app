@@ -18,12 +18,12 @@ header{
 }
 
 .header_logo{
-  margin-left:8.3%;
+    margin-left: 8.3%;
 }
 
 .myLink{
     text-align: center;
-    padding: 30px 25px;
+    padding: 20px 25px;
     font-weight: bold;
     color: rgb(72, 72, 72);
     font-size: 13px;
@@ -37,10 +37,10 @@ header{
 }
 
 .Border::after{
-content: "|";
-color: #b5b6b9;
-font-size: 32px;
-font-weight: 300;
+    content: "|";
+    color: #b5b6b9;
+    font-size: 32px;
+    font-weight: 300;
 }
   
 

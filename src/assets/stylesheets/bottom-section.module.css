@@ -1,0 +1,36 @@
+.main_container{
+    background-color: #323232;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+    padding: 20px;
+  }
+
+.myLink{
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    color: rgb(247, 247, 247);
+    text-decoration:  none;
+    font-size: 14px;
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+
+.myFooter{
+    background: #272727;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: rgb(247, 247, 247);
+    line-height: 2.143;
+}
+  
+  
