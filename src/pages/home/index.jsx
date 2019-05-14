@@ -7,6 +7,7 @@ import PicturesSection from '../../components/pictures-section/pictures-section'
 import SliderSection from '../../components/slider-section/slider-section';
 import BottomSection from '../../components/bottom-section/bottom-section';
 import Footer from '../../components/footer/footer';
+import PersonList from '../../components/PersonList'
 
 const Home = () => (
     <div>
@@ -16,6 +17,7 @@ const Home = () => (
         <SliderSection/>
         <BottomSection/>
         <Footer/>
+        <PersonList></PersonList>
     </div>
 )
 
