@@ -17,7 +17,6 @@ const Home = () => (
         <SliderSection/>
         <BottomSection/>
         <Footer/>
-        <PersonList></PersonList>
     </div>
 )
 

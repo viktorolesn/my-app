@@ -14,8 +14,8 @@ render(){
       <div className={styles.topNav} id="myTopNav"> 
         <Link to="" className={styles.myLink}>ALL PRODUCTS</Link>
         <Link to="/about" className={styles.myLink}> ABOUT US</Link>
-        <span className={styles.Border}><Link to="" className={styles.myLink}>LOG IN</Link></span>
-        <Link to="" className={styles.myLink}>SIGN UP</Link>
+        <span className={styles.Border}><Link to="/login" className={styles.myLink}>LOG IN</Link></span>
+        <Link to="/signup" className={styles.myLink}>SIGN UP</Link>
       </div>
     </nav>
   </header>
